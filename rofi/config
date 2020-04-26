@@ -1,0 +1,15 @@
+rofi.dmenu: true
+rofi.modi: run,drun,window
+rofi.bw: 0
+rofi.sidebar-mode: true
+
+rofi.display-drun: drun
+rofi.display-run: run
+rofi.display-window: window
+
+rofi.font: DejaVu Sans Mono 16
+rofi.theme: ./nord
+
+! shortcuts
+rofi.kb-mode-next: Alt+Right
+rofi.kb-mode-previous: Alt+Left

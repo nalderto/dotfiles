@@ -1,0 +1,37 @@
+window {
+margin: 5px;
+background-color: #2E3440;
+border: 2px #3B4252;
+}
+
+#input {
+margin: 5px;
+background-color: #2E3440;
+border-width: 0px;
+}
+
+#inner-box {
+padding: 5px;
+}
+
+#outer-box {
+}
+
+#scroll {
+}
+
+#text {
+margin: 5px;
+color: #7B8394;
+font-family: "DejaVu Sans Mono";
+font-size: 18px;
+}
+
+#entry:selected {
+background-color: #3B4252;
+color: #D8DEE9;
+}
+
+#text:selected {
+color: #D8DEE9;
+}
