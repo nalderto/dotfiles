@@ -31,7 +31,8 @@
     "network": {
         "format-wifi": "<span font='14' rise='-1000'>󰖩</span> {essid} ({signalStrength}%)",
         "format-ethernet": "󰌗 {ifname}: {ipaddr}/{cidr}",
-        "format-disconnected": " Disconnected"
+        "format-disconnected": " Disconnected",
+	"on-click": "alacritty -e nmtui"
     },
     "pulseaudio": {
         "format": "<span font='14' rise='-1000'>{icon}</span> {volume}%",
@@ -44,7 +45,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["󰖀", "󰕾"]
+            "default": ["", "󰖀", "󰕾"]
         },
         "on-click": "pavucontrol"
     },
