@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "tray", "clock"],
+    "modules-right": ["pulseaudio", "network", "cpu", "battery", "tray", "clock"],
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
@@ -15,13 +15,9 @@
     },
     "clock": {
     	"format": "{:%a %b-%d  %I:%M %p}",
-        "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
-        "format": "{usage}% "
-    },
-    "memory": {
-        "format": "{}% "
+        "format": "<span font='14' rise='-2000'></span> {usage}%"
     },
     "battery": {
         "bat": "BAT0",
@@ -29,18 +25,18 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
     "network": {
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "format-disconnected": "Disconnected ⚠"
+        "format-wifi": "<span font='14' rise='-1000'>󰖩</span> {essid} ({signalStrength}%)",
+        "format-ethernet": "󰌗 {ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": " Disconnected"
     },
     "pulseaudio": {
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-muted": "",
+        "format": "<span font='14' rise='-1000'>{icon}</span> {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": "󰝟",
         "format-icons": {
             "headphones": "",
             "handsfree": "",
@@ -48,7 +44,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": ["󰖀", "󰕾"]
         },
         "on-click": "pavucontrol"
     },
