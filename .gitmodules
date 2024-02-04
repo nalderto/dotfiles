@@ -1,0 +1,8 @@
+[submodule "alacritty/themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
+	shallow = true
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:nalderto/kickstart.nvim.git
+	shallow = true
