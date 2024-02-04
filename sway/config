@@ -195,7 +195,7 @@ bindsym $mod+r mode "resize"
 bindsym XF86AudioMute exec amixer sset Master toggle
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%-
-bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioMicMute exec amixer sset Capture toggle
 
 #
 # Brightness Keybindings
