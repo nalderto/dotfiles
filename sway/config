@@ -35,6 +35,10 @@ set $locker swaylock -f -i $wallpaper
           timeout 300 $locker \
           timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
           before-sleep $locker
+
+### Require password when opening laptop lid
+ bindswitch --reload --locked lid:on exec $locker 
+
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
