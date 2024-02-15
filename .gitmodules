@@ -4,7 +4,7 @@
 	shallow = true
 [submodule "nvim"]
 	path = nvim
-	url = git@github.com:nalderto/kickstart.nvim.git
+	url = https://github.com/nalderto/kickstart.nvim.git
 	shallow = true
 [submodule "zsh/plugins/autocomplete"]
 	path = zsh/plugins/autocomplete
