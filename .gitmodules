@@ -26,3 +26,7 @@
 	path = zsh/plugins/lf
 	url = https://github.com/chmouel/zsh-select-with-lf.git
 	shallow = true
+[submodule "zsh/plugins/p10k"]
+	path = zsh/plugins/p10k
+	url = https://github.com/romkatv/powerlevel10k.git
+	shallow = true
