@@ -17,7 +17,7 @@
     	"format": "{:%a %b-%d  %I:%M %p}",
     },
     "cpu": {
-        "format": "<span font='14' rise='-2000'></span> {usage}%"
+        "format": "<span font='12' rise='-2000'> </span> {usage}%"
     },
     "battery": {
         "bat": "BAT0",
@@ -29,7 +29,7 @@
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
     "network": {
-        "format-wifi": "<span font='14' rise='-1000'>󰖩</span> {essid} ({signalStrength}%)",
+        "format-wifi": "<span font='12' rise='-1000'>󰖩 </span> {essid} ({signalStrength}%)",
         "format-ethernet": "󰌗 {ifname}: {ipaddr}/{cidr}",
         "format-disconnected": " Disconnected",
 	"on-click": "alacritty -e nmtui"
