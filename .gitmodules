@@ -10,23 +10,23 @@
 	path = zsh/.config/zsh/plugins/autocomplete
 	url = https://github.com/marlonrichert/zsh-autocomplete.git
 	shallow = true
-[submodule "zsh/.config/zsh//plugins/pure"]
+[submodule "zsh/.config/zsh/plugins/pure"]
 	path = zsh/.config/zsh/plugins/pure
 	url = https://github.com/sindresorhus/pure.git
 	shallow = true
-[submodule "zsh/.config/zsh//plugins/autosuggestions"]
+[submodule "zsh/.config/zsh/plugins/autosuggestions"]
 	path = zsh/.config/zsh/plugins/autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
 	shallow = true
-[submodule "zsh/.config/zsh//plugins/fast-syntax-highlighting"]
+[submodule "zsh/.config/zsh/plugins/fast-syntax-highlighting"]
 	path = zsh/.config/zsh/plugins/fast-syntax-highlighting
 	url = https://github.com/zdharma-continuum/fast-syntax-highlighting
 	shallow = true
-[submodule "zsh/.config/zsh//plugins/lf"]
+[submodule "zsh/.config/zsh/plugins/lf"]
 	path = zsh/.config/zsh/plugins/lf
 	url = https://github.com/chmouel/zsh-select-with-lf.git
 	shallow = true
-[submodule "zsh/.config/zsh//plugins/p10k"]
+[submodule "zsh/.config/zsh/plugins/p10k"]
 	path = zsh/.config/zsh/plugins/p10k
 	url = https://github.com/romkatv/powerlevel10k.git
 	shallow = true
