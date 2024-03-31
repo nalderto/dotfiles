@@ -8,6 +8,11 @@ fi
 # Aliases
 source $ZDOTDIR/aliases.zsh
 
+# Machine-Specific Customizations
+if [[ -f $ZDOTDIR/custom.zsh ]]; then
+  source $ZDOTDIR/custom.zsh
+fi
+
 # Powerlevel10k Prompt
 source $ZDOTDIR/plugins/p10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
