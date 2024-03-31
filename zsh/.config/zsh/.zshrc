@@ -55,3 +55,13 @@ setopt HIST_SAVE_NO_DUPS
 # Allow Backspace to Previous Line
 bindkey '^?' backward-delete-char
 
+# Home Key Goes to Beginning of Line
+bindkey  "^[[H"   beginning-of-line # xterm
+bindkey  "^[[1~"   beginning-of-line # tmux
+
+# End Key Goes to End of Line
+bindkey  "^[[F"   end-of-line # xterm 
+bindkey  "^[[4~"   end-of-line # tmux
+
+# Delete Key Delete Character in Front of Cursor
+bindkey  "^[[3~"  delete-char
