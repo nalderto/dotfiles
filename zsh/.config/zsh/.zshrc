@@ -74,5 +74,12 @@ bindkey "^[[4~" end-of-line # tmux
 bindkey "^[[3~" delete-char
 
 ## Use Ctrl + Arrow Key to Jump Forward/Backward by Word
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
+if [[ $(uname) == "Darwin" ]]; then
+  # macOS uses alt or cmd
+  bindkey "^[[1;3C" forward-word
+  bindkey "^[[1;3D" backward-word
+else
+  # Linux uses ctrl
+  bindkey "^[[1;5C" forward-word
+  bindkey "^[[1;5D" backward-word
+fi
