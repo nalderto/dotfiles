@@ -4,8 +4,6 @@ enable-normalization-flatten-containers = false
 enable-normalization-opposite-orientation-for-nested-containers = false
 
 [mode.main.binding]
-shift-enter = 'exec-and-forget open -n /Applications/Alacritty.app'
-
 alt-j = 'focus left'
 alt-k = 'focus down'
 alt-l = 'focus up'
